@@ -29,5 +29,5 @@ for links in all_urls:
         
 
 
-
+print(data.count)
 pd.DataFrame(data).to_csv('data.csv')
